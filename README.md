@@ -30,11 +30,13 @@ moim priorytetem jednak był egzamin w środę.
 
 Udało mi się zaimplementować następujące klasy z diagramu klas:
 -Move (prosta klasa zapisująca ruchy, częściowo)
--Bitboard (prosta klasa zapisująca pozycje)
--IPC (kompletnie nie działa)
--board (podzielona na "GameLogic" i "board"), GameLogic to pozostałość po moich kombinacjach z GUI ucząc się wxWidgets, miało zostać usunięte ale nie starczyło czasu
-Klasa ta zawiera różne losowe próby implementacji, jednakże nie skończyło mi czasu na nic sensownego.
--GUIPlayfield nazwane PlayfieldWindow, ogólna klasa implementująca GUI
+
+
+-Bitboard (prosta klasa zapisująca pozycje)         
+-IPC (kompletnie nie działa)                
+-board (podzielona na "GameLogic" i "board"), GameLogic to pozostałość po moich kombinacjach z GUI ucząc się wxWidgets, miało zostać usunięte ale nie starczyło czasu                     
+Klasa ta zawiera różne losowe próby implementacji, jednakże nie skończyło mi czasu na nic sensownego.                       
+-GUIPlayfield nazwane PlayfieldWindow, ogólna klasa implementująca GUI                               
 
 Cały kod implementacji jest chaotyczny, chciałem aby cokolwiek w ogóle działało ale wyszło że prawie nic nie działa, istnieje wiele zalążków
 różnych prób implementacji rzeczy, wiele kodu który nic nie robi.
