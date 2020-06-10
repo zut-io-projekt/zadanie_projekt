@@ -1,8 +1,14 @@
 # zadanie_projekt_artur_tamm
 
 Aby skompilować plik należy posiadać: 
+
+
 -wxWidgets https://www.wxwidgets.org/
+
+
 -Visual Studio 2019
+
+
 -opcja "enable intrinsic functions" (C++/Optimization w Visual Studio) ustawieniach oraz procesor kompatybilny z SSE (instrukcja POPCNT)
 
 poradnik jak zainstalować wxwidgets w visual studio:
