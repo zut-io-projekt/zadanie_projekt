@@ -11,8 +11,14 @@ Aby skompilować plik należy posiadać:
 
 -opcja "enable intrinsic functions" (C++/Optimization w Visual Studio) ustawieniach oraz procesor kompatybilny z SSE (instrukcja POPCNT)
 
+
+-opcja Subsystem:Widnows w Linker/System
+
+
 poradnik jak zainstalować wxwidgets w visual studio:
 https://www.youtube.com/watch?v=EI2taYkErRg
+
+Należy dodać wszystkie pliki do projektu (ustawienia takie jak w poradniku + enable intrinsic functions)
 
 Jako że to jest dosyć kłopotliwe i może zająć dużo czasu, w folderze "release" znajduje się gotowy skompilowany (wxChess1.exe) który można normalnie uruchomić
 Wszystkie pliki grafik oraz pliki .dll biblioteki wxwidgets muszą znajdować się w tej samej lokacji co plik wykonywalny .exe.
